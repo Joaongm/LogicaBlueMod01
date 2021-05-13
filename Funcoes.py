@@ -19,7 +19,9 @@ def subtracao(a,b):
     #chamando a função #
 subtracao(50, 3)
 print()
-def func_a(a, b):
-    print( (a + b)**2(b/a))
 a=int(input('Valor a:'))
-b=int(input('Valor b: '))
+b=int(input('Valor b:'))
+def fun():
+    c=2
+    print( (a + b)**c+(b/a))
+fun()
