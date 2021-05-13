@@ -20,6 +20,6 @@ def subtracao(a,b):
 subtracao(50, 3)
 print()
 def func_a(a, b):
-    print( (a + b)**2(b/a)))
+    print( (a + b)**2(b/a))
 a=int(input('Valor a:'))
 b=int(input('Valor b: '))
