@@ -20,7 +20,7 @@ for cont in range(10,0,-1):
 '''
 casadas=0
 solteiras=0
-var=3
+var=15
 for x in range(var):
     entrada=input('Informe o estado Civil(C = casado / S = Solteiro): ')
     if entrada in 'Cc':
