@@ -1,6 +1,6 @@
 # aula 011 #
 ''' Dicionário '''
-
+'''
 lista_contatos = [('Jojo','3388-9090'), ('Luana','9907-8464') , ('Niets','8257-9089'), ('Mark','9587-1313')]
 print(lista_contatos[2][0])
 
@@ -32,6 +32,8 @@ print(contatos)
 
 # Adicionando Chaves e Valores com input(método 1):
 '''
+
+'''
 a = input('Digite o nome:')
 b = input('Digite o telefone:')
 contatos[a]=b
@@ -46,6 +48,8 @@ print(contatos)
 print()
 print('-='*40)
 print('Removendo contatos no dicionário:')
+
+'''
 '''
 del contatos['Mulher Maravilha']
 print(contatos)
@@ -70,15 +74,23 @@ contatos.update(contatos_niets)
 
 print(contatos)
 print()
-
+'''
 #Exemplo 2 #
 
 
-'''
+
+
+
 vingadores = {'Iron Man':'Robert Downey Jr.' , 'Captain America':'Chris Evans', 'Thor':'Chris Hemsworth', 'Black Widow':'Scarlett Johansson', 'Hulk':'Mark Ruffalo', 'Nick Fury':'Samuel L. Jackson', 'Vision':'Paul Bettany', 'Antman':'Paul Rudd', 'God':'Stan Lee'}
+
+vingadores_lista = ['Miranha', 'Lóqui','Tânus','Bátima']
+
 
 print(vingadores)
 
+print('-='*40)
 for k,v in vingadores.items():
     print(k,'-', v)
-    '''
+
+for i,v in enumerate (['Miranha', 'Lóqui','Tânus','Bátima']):
+    print(i+101,'-',v)
